@@ -1,0 +1,27 @@
+├── .github/
+│   └── workflows/
+│       └── deploy.yml              <-- GitHub Pages automated build & deploy
+├── public/
+│   ├── 404.html                    <-- GitHub Pages SPA redirect
+│   ├── apple-touch-icon.png        <-- iOS Safari touch icon
+│   ├── icon-192.png                <-- 192x192 PWA install icon
+│   ├── icon-512.png                <-- 512x512 PWA install & splash icon
+│   ├── icon.svg                    <-- Vector desktop favicon
+│   ├── manifest.json               <-- PWA Web App Manifest
+│   ├── splash.svg                  <-- Splash vector graphic
+│   └── sw.js                       <-- Offline gameplay service worker
+├── src/
+│   ├── App.tsx                     <-- Main application shell & state
+│   ├── components/                 <-- Game UI, characters, map, & PWA controls
+│   ├── data/                       <-- Curriculum, stories, & math questions
+│   ├── hooks/                      <-- usePWAInstall hook
+│   ├── tests/                      <-- 990 passing verification tests
+│   ├── types/                      <-- TypeScript definitions
+│   ├── utils/                      <-- Sound, progress, & beta testing logic
+│   ├── index.css                   <-- Tailwind CSS imports
+│   └── main.tsx                    <-- React 19 entry point
+├── .gitignore                      <-- Excludes secrets, node_modules, and dist
+├── index.html                      <-- HTML root template
+├── package.json                    <-- Dependencies and test/build scripts
+├── tsconfig.json                   <-- TypeScript configuration
+└── vite.config.ts                  <-- Vite bundler with relative base "./"
